@@ -1,0 +1,14 @@
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/bin/Debug/netcoreapp2.2/employeesWebApi.deps.json
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/bin/Debug/netcoreapp2.2/employeesWebApi.runtimeconfig.json
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/bin/Debug/netcoreapp2.2/employeesWebApi.runtimeconfig.dev.json
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/bin/Debug/netcoreapp2.2/employeesWebApi.dll
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/bin/Debug/netcoreapp2.2/employeesWebApi.pdb
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.csprojAssemblyReference.cache
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.csproj.CoreCompileInputs.cache
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.RazorAssemblyInfo.cache
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.RazorAssemblyInfo.cs
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.AssemblyInfoInputs.cache
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.AssemblyInfo.cs
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.RazorTargetAssemblyInfo.cache
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.dll
+/Users/Geneva/Desktop/CS467/employeesWebApi/employeesWebApi/obj/Debug/netcoreapp2.2/employeesWebApi.pdb
