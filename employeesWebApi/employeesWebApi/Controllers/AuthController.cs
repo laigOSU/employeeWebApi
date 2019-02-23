@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
@@ -18,6 +18,10 @@ namespace employeesWebApi.Controllers
         [HttpPost("token")]   //So to access: api/auth/token to access this endpoint of our api
         public ActionResult GetToken()
         {
+               // pass in email/psw
+               // query of all users and see if there is a match
+               // if match, then send the security key
+               // if no match, error message
 
             // 1. Need security key, which we use to sign the token, s.t. we can validate it later
             // Just a string. Can save it anywhere in DB, config file, or envt. 
@@ -37,6 +41,10 @@ namespace employeesWebApi.Controllers
 
             // 3a. Add claims (user type in JWT payload)
             var claims = new List<Claim>();
+            //if (role == 0)
+            //  then claims.Add = User
+            // else 
+            // then claims.Add = Admin
             claims.Add(new Claim(ClaimTypes.Role, "Admin"));  // Don't forget to assign this claim to the token body, in #4.
             claims.Add(new Claim(ClaimTypes.Role, "User"));
             claims.Add(new Claim("Custom_Claim", "Custom_value"));
