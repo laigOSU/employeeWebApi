@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,21 +9,23 @@ namespace employeesWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin, User")]
     public class ValuesController : ControllerBase
     {
         // GET api/values
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Only admins see this:", "value1", "value2" };
         }
 
         // GET api/values/5
+        [Authorize(Roles = "User")]
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return "Only users see this: value";
         }
 
         // POST api/values
@@ -44,4 +46,7 @@ namespace employeesWebApi.Controllers
         {
         }
     }
+
+
+
 }
